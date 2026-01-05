@@ -1,5 +1,7 @@
 import { useEffect, useRef } from 'react';
-import particleImage from '/assets/images/project2/particle2.png';
+// import particleImage from '../assets/images/project2/particle2.png';
+// 图片文件不存在，使用占位符
+const particleImage = '';
 
 interface Particle {
   x: number;

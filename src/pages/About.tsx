@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -6,7 +5,7 @@ import { TechBackground } from '../components/canvas/TechBackground';
 import { CVEntry, ResearchArea } from '../types';
 
 const imgPortrait1 = '/assets/images/about/author-0.jpg';
-const imgPortrait2 = '/assets/images/about/author-2.jpg';
+// const imgPortrait2 = '/assets/images/about/author-2.jpg';
 
 const RESEARCH_AREAS: ResearchArea[] = [
     { title: 'Generative Design', description: 'exploring algorithms for form finding' },

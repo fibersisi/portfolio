@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft } from 'lucide-react';
@@ -6,7 +5,7 @@ import { TechBackground } from '../components/canvas/TechBackground';
 
 // 项目图片资源（需要从 Figma 导出）
 const imgProject3Cover1 = '/assets/images/project3/prj-3-cover1.png';
-const imgProject3Cover2 = '/assets/images/project3/prj-3-cover2.png';
+// const imgProject3Cover2 = '/assets/images/project3/prj-3-cover2.png';
 const imgProject3Doc1 = '/assets/images/project3/prj-3-doc1.png';
 const imgProject3Doc2 = '/assets/images/project3/prj-3-doc2.png';
 const imgProject3Doc3 = '/assets/images/project3/prj-3-doc3.png';

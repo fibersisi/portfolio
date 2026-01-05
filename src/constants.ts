@@ -1,4 +1,4 @@
-import { Project, Category } from './types';
+import { Project } from './types';
 
 // Helper to generate placeholder images
 const getImg = (id: number) => `/assets/images/project-${id}.png`;

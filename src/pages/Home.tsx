@@ -1,6 +1,6 @@
 import { useState, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { Canvas } from '@react-three/fiber';
 import { TechBackground } from '../components/canvas/TechBackground';
 import { P5InteractionLayer } from '../components/canvas/P5InteractionLayer';

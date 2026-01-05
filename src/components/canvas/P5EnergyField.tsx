@@ -61,10 +61,10 @@ export const P5EnergyField = () => {
                 // 半透明背景实现拖尾效果
                 p.background(0, 0, 0, 25);
 
-                const center = p.createVector(centerX, centerY);
+                // const center = p.createVector(centerX, centerY);
 
                 // 绘制粒子 - 移除双层绘制，只绘制一层以提升性能
-                particles.forEach((particle, index) => {
+                particles.forEach((particle) => {
                     // 计算到中心的距离和方向
                     const dx = centerX - particle.pos.x;
                     const dy = centerY - particle.pos.y;

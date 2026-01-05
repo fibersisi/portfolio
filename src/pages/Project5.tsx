@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft } from 'lucide-react';
@@ -6,9 +5,9 @@ import { TechBackground } from '../components/canvas/TechBackground';
 
 // Figma 设计的图片资源
 const imgPrj5Main = '/assets/images/project5/prj-5-main.png';
-const imgP5Sound1 = '/assets/images/project5/prj-5-sound1.png';
-const imgP5Sound2 = '/assets/images/project5/prj-5-sound2.png';
-const imgP5Sound3 = '/assets/images/project5/prj-5-sound3.png';
+// const imgP5Sound1 = '/assets/images/project5/prj-5-sound1.png';
+// const imgP5Sound2 = '/assets/images/project5/prj-5-sound2.png';
+// const imgP5Sound3 = '/assets/images/project5/prj-5-sound3.png';
 
 const Project5 = () => {
     return (
