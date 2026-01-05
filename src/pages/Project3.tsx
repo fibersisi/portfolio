@@ -4,12 +4,12 @@ import { ArrowLeft } from 'lucide-react';
 import { TechBackground } from '../components/canvas/TechBackground';
 
 // 项目图片资源（需要从 Figma 导出）
-const imgProject3Cover1 = '/assets/images/project3/prj-3-cover1.png';
-// const imgProject3Cover2 = '/assets/images/project3/prj-3-cover2.png';
-const imgProject3Doc1 = '/assets/images/project3/prj-3-doc1.png';
-const imgProject3Doc2 = '/assets/images/project3/prj-3-doc2.png';
-const imgProject3Doc3 = '/assets/images/project3/prj-3-doc3.png';
-const imgProject3Result = '/assets/images/project3/prj-3-result.png';
+const imgProject3Cover1 = 'assets/images/project3/prj-3-cover1.png';
+// const imgProject3Cover2 = 'assets/images/project3/prj-3-cover2.png';
+const imgProject3Doc1 = 'assets/images/project3/prj-3-doc1.png';
+const imgProject3Doc2 = 'assets/images/project3/prj-3-doc2.png';
+const imgProject3Doc3 = 'assets/images/project3/prj-3-doc3.png';
+const imgProject3Result = 'assets/images/project3/prj-3-result.png';
 
 const Project3 = () => {
     return (
@@ -25,8 +25,8 @@ const Project3 = () => {
             <div className="relative z-10 w-full">
                 {/* 返回按钮 - 固定在顶部 */}
                 <div className="fixed top-8 left-8 z-50">
-                    <Link 
-                        to="/" 
+                    <Link
+                        to="/"
                         className="inline-flex items-center text-[#6CBFCD] hover:text-white transition-colors group bg-black/50 backdrop-blur-sm px-4 py-2 rounded-full border border-white/10"
                     >
                         <ArrowLeft className="mr-2 group-hover:-translate-x-1 transition-transform" size={20} />
@@ -47,7 +47,7 @@ const Project3 = () => {
                             <span className="text-[#e5a17b]">PROJECT 03</span>
                             <span className="text-white">{`  The Starlight Syntax`}</span>
                         </h1>
-                        
+
                         <h2 className="font-['Aboreto',sans-serif] text-3xl text-[#999] tracking-wide leading-snug mb-8">
                             <span>"</span>
                             <span className="text-[#80d691]">Translating</span>

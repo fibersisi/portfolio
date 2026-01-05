@@ -1,7 +1,7 @@
 import { Project } from './types';
 
 // Helper to generate placeholder images
-const getImg = (id: number) => `/assets/images/project-${id}.png`;
+const getImg = (id: number) => `assets/images/project-${id}.png`;
 
 export const ARTIST_PROJECTS: Project[] = [
   {
@@ -16,7 +16,7 @@ export const ARTIST_PROJECTS: Project[] = [
       neutral: { top: 14, left: 40, scale: 1.15 },
       artist_focus: { top: 14, left: 40, scale: 1.7 },
       designer_focus: { top: 14, left: 40, scale: 0.8 },
-      
+
     },
   },
   {
@@ -31,7 +31,7 @@ export const ARTIST_PROJECTS: Project[] = [
       neutral: { top: 20, left: 20, scale: 1 },
       artist_focus: { top: 20, left: 20, scale: 1.6 },
       designer_focus: { top: 20, left: 20, scale: 0.8 },
-      
+
     },
   },
   {
@@ -46,7 +46,7 @@ export const ARTIST_PROJECTS: Project[] = [
       neutral: { top: 50, left: 15, scale: 1.2 },
       artist_focus: { top: 50, left: 15, scale: 1.6 },
       designer_focus: { top: 50, left: 15, scale: 0.8 },
-      
+
     },
   },
   {
@@ -58,7 +58,7 @@ export const ARTIST_PROJECTS: Project[] = [
     tags: ['VR', 'Narrative'],
     year: '2023',
     positions: {
-      
+
       neutral: { top: 75, left: 30, scale: 1.1 },
       artist_focus: { top: 75, left: 30, scale: 1.6 },
       designer_focus: { top: 75, left: 30, scale: 0.8 },
@@ -79,7 +79,7 @@ export const DESIGNER_PROJECTS: Project[] = [
       neutral: { top: 15, left: 60, scale: 1.1 },
       artist_focus: { top: 15, left: 60, scale: 0.8 },
       designer_focus: { top: 15, left: 60, scale: 1.7 },
-      
+
     },
   },
   {
@@ -91,12 +91,12 @@ export const DESIGNER_PROJECTS: Project[] = [
     tags: ['Dashboard', 'System'],
     year: '2023',
     positions: {
-      
+
       neutral: { top: 25, left: 75, scale: 1 },
       artist_focus: { top: 25, left: 75, scale: 0.8 },
       designer_focus: { top: 25, left: 75, scale: 1.7 },
 
-     
+
     },
   },
   {
@@ -108,10 +108,10 @@ export const DESIGNER_PROJECTS: Project[] = [
     tags: ['Web', 'Data'],
     year: '2022',
     positions: {
-       neutral: { top: 50, left: 75, scale: 1.1 },
+      neutral: { top: 50, left: 75, scale: 1.1 },
       artist_focus: { top: 50, left: 75, scale: 0.8 },
       designer_focus: { top: 50, left: 75, scale: 1.7 },
-      
+
     },
   },
   {

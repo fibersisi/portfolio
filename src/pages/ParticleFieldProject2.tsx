@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-// import particleImage from '../assets/images/project2/particle2.png';
+// import particleImage from '..assets/images/project2/particle2.png';
 // 图片文件不存在，使用占位符
 const particleImage = '';
 
@@ -51,12 +51,12 @@ export function ParticleFieldProject2() {
         // Smaller particles = lower transparency (more opaque)
         // Larger particles = higher transparency (more transparent)
         const opacity = (size - 15) / 30 * 0.5 + 0.3; // Maps 15-45px to 0.3-0.8 opacity
-        
+
         // Random compression ratios for 3D effect
         const compressionType = Math.random();
         let scaleX = 1;
         let scaleY = 1;
-        
+
         if (compressionType < 0.33) {
           // 1:2 compression (compressed vertically)
           scaleY = 0.5;
@@ -71,12 +71,12 @@ export function ParticleFieldProject2() {
           scaleX = 0.33;
         }
         // Otherwise keep 1:1 ratio
-        
+
         particles.push({
           x: Math.random() * canvas.width,
           y: Math.random() * canvas.height - canvas.height, // Start above screen
           size: size,
-          speed: Math.random() * 3 , // Increased speed: 2-5 (was 0.5-2)
+          speed: Math.random() * 3, // Increased speed: 2-5 (was 0.5-2)
           opacity: opacity,
           rotation: Math.random() * Math.PI * 2, // Random rotation 0-360 degrees
           scaleX: scaleX,
@@ -120,16 +120,16 @@ export function ParticleFieldProject2() {
         if (imageRef.current && imageRef.current.complete) {
           ctx.save();
           ctx.globalAlpha = particle.opacity;
-          
+
           // Move to particle position
           ctx.translate(particle.x, particle.y);
-          
+
           // Apply rotation
           ctx.rotate(particle.rotation);
-          
+
           // Apply scale/compression for 3D effect
           ctx.scale(particle.scaleX, particle.scaleY);
-          
+
           // Draw image centered at origin with size multiplier
           const currentSize = particle.size * sizeMultiplier;
           ctx.drawImage(
@@ -139,7 +139,7 @@ export function ParticleFieldProject2() {
             currentSize,
             currentSize
           );
-          
+
           ctx.restore();
         }
       });

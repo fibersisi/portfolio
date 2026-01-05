@@ -1,6 +1,6 @@
 import { useRef, useEffect, useState } from 'react';
 // import { motion } from 'framer-motion';
-// import backgroundImage from '../assets/images/project2/prg-2-bg.webp';
+// import backgroundImage from '..assets/images/project2/prg-2-bg.webp';
 // 图片文件不存在，使用占位符
 const backgroundImage = '';
 
@@ -62,7 +62,7 @@ export function RippleBackground() {
   }, [isHovering]);
 
   return (
-    <div 
+    <div
       ref={containerRef}
       className="fixed inset-0 overflow-hidden"
       style={{ zIndex: 0 }}

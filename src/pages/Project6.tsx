@@ -4,13 +4,13 @@ import { ArrowLeft } from 'lucide-react';
 import { TechBackground } from '../components/canvas/TechBackground';
 
 // Figma 设计的图片资源
-const imgBoundlessFood02 = '/assets/images/project6/prj-6-p2.png';
-const imgBoundlessFood03 = '/assets/images/project6/prj-6-p3.png';
-const imgBoundlessFood04 = '/assets/images/project6/prj-6-p4.png';
-const imgBoundlessFood05 = '/assets/images/project6/prj-6-p5.png';
-const imgBoundlessFood06 = '/assets/images/project6/prj-6-p6.png';
-const imgBoundlessFood07 = '/assets/images/project6/prj-6-p7.png';
-const imgBoundlessFood08 = '/assets/images/project6/prj-6-p8.png';
+const imgBoundlessFood02 = 'assets/images/project6/prj-6-p2.png';
+const imgBoundlessFood03 = 'assets/images/project6/prj-6-p3.png';
+const imgBoundlessFood04 = 'assets/images/project6/prj-6-p4.png';
+const imgBoundlessFood05 = 'assets/images/project6/prj-6-p5.png';
+const imgBoundlessFood06 = 'assets/images/project6/prj-6-p6.png';
+const imgBoundlessFood07 = 'assets/images/project6/prj-6-p7.png';
+const imgBoundlessFood08 = 'assets/images/project6/prj-6-p8.png';
 
 const Project6 = () => {
     return (
@@ -26,8 +26,8 @@ const Project6 = () => {
             <div className="relative z-10 w-full">
                 {/* 返回按钮 - 固定在顶部 */}
                 <div className="fixed top-8 left-8 z-50">
-                    <Link 
-                        to="/" 
+                    <Link
+                        to="/"
                         className="inline-flex items-center text-[#6CBFCD] hover:text-white transition-colors group bg-black/50 backdrop-blur-sm px-4 py-2 rounded-full border border-white/10"
                     >
                         <ArrowLeft className="mr-2 group-hover:-translate-x-1 transition-transform" size={20} />
@@ -48,7 +48,7 @@ const Project6 = () => {
                             <span className="text-[#88baa1]">PROJECT 06</span>
                             <span className="text-white">{`  Boundless Food. Plc`}</span>
                         </h1>
-                        
+
                         <h2 className="font-['Aboreto',sans-serif] text-3xl text-[#999] tracking-wide leading-snug mb-8">
                             <span>"</span>
                             <span className="text-[#efc971]">Everyone</span>
@@ -92,57 +92,57 @@ const Project6 = () => {
                         className="space-y-8"
                     >
                         <div className="w-full rounded-lg overflow-hidden border border-white/10 bg-white/5">
-                            <img 
-                                src={imgBoundlessFood02} 
-                                alt="Boundless Food - Design 02" 
+                            <img
+                                src={imgBoundlessFood02}
+                                alt="Boundless Food - Design 02"
                                 className="w-full h-auto object-cover"
                             />
                         </div>
 
                         <div className="w-full rounded-lg overflow-hidden border border-white/10 bg-white/5">
-                            <img 
-                                src={imgBoundlessFood03} 
-                                alt="Boundless Food - Design 03" 
+                            <img
+                                src={imgBoundlessFood03}
+                                alt="Boundless Food - Design 03"
                                 className="w-full h-auto object-cover"
                             />
                         </div>
 
                         <div className="w-full rounded-lg overflow-hidden border border-white/10 bg-white/5">
-                            <img 
-                                src={imgBoundlessFood04} 
-                                alt="Boundless Food - Design 04" 
+                            <img
+                                src={imgBoundlessFood04}
+                                alt="Boundless Food - Design 04"
                                 className="w-full h-auto object-cover"
                             />
                         </div>
 
                         <div className="w-full rounded-lg overflow-hidden border border-white/10 bg-white/5">
-                            <img 
-                                src={imgBoundlessFood05} 
-                                alt="Boundless Food - Design 05" 
+                            <img
+                                src={imgBoundlessFood05}
+                                alt="Boundless Food - Design 05"
                                 className="w-full h-auto object-cover"
                             />
                         </div>
 
                         <div className="w-full rounded-lg overflow-hidden border border-white/10 bg-white/5">
-                            <img 
-                                src={imgBoundlessFood06} 
-                                alt="Boundless Food - Design 06" 
+                            <img
+                                src={imgBoundlessFood06}
+                                alt="Boundless Food - Design 06"
                                 className="w-full h-auto object-cover"
                             />
                         </div>
 
                         <div className="w-full rounded-lg overflow-hidden border border-white/10 bg-white/5">
-                            <img 
-                                src={imgBoundlessFood07} 
-                                alt="Boundless Food - Design 07" 
+                            <img
+                                src={imgBoundlessFood07}
+                                alt="Boundless Food - Design 07"
                                 className="w-full h-auto object-cover"
                             />
                         </div>
 
                         <div className="w-full rounded-lg overflow-hidden border border-white/10 bg-white/5">
-                            <img 
-                                src={imgBoundlessFood08} 
-                                alt="Boundless Food - Design 08" 
+                            <img
+                                src={imgBoundlessFood08}
+                                alt="Boundless Food - Design 08"
                                 className="w-full h-auto object-cover"
                             />
                         </div>

@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 import { TechBackground } from '../components/canvas/TechBackground';
 import { CVEntry, ResearchArea } from '../types';
 
-const imgPortrait1 = '/assets/images/about/author-0.jpg';
-// const imgPortrait2 = '/assets/images/about/author-2.jpg';
+const imgPortrait1 = 'assets/images/about/author-0.jpg';
+// const imgPortrait2 = 'assets/images/about/author-2.jpg';
 
 const RESEARCH_AREAS: ResearchArea[] = [
     { title: 'Generative Design', description: 'exploring algorithms for form finding' },
@@ -57,8 +57,8 @@ const About = () => {
                         <motion.section variants={itemVariants}>
                             <h1 className="text-6xl font-display font-bold mb-6">Hu Zhewen</h1>
                             <p className="text-xl text-gray-300 leading-relaxed max-w-2xl">
-                                I believe that great design is not just about aesthetics—it's about creating experiences 
-                                that feel alive, responsive, and intuitive. Every project is an opportunity to push boundaries 
+                                I believe that great design is not just about aesthetics—it's about creating experiences
+                                that feel alive, responsive, and intuitive. Every project is an opportunity to push boundaries
                                 and explore new frontiers in digital creativity.
                             </p>
                         </motion.section>
@@ -103,11 +103,11 @@ const About = () => {
                             <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10" />
                             {/* Portrait Placeholder */}
                             <div className="w-full h-full bg-gray-800 flex items-center justify-center text-gray-500">
-                                <img 
-                                src={imgPortrait1} 
-                                alt="Portrait" 
-                                className="w-full h-auto object-cover"
-                            />
+                                <img
+                                    src={imgPortrait1}
+                                    alt="Portrait"
+                                    className="w-full h-auto object-cover"
+                                />
                             </div>
                             <div className="absolute bottom-6 left-6 z-20">
                                 <div className="font-display text-xl">Hu Zhewen</div>
