@@ -12,5 +12,5 @@ export default defineConfig({
     server: {
         port: 3000,
     },
-    base: './', // Relative base path for easier deployment
+    base: '/portfolio/', // Relative base path for easier deployment
 });
