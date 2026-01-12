@@ -21,7 +21,7 @@ export const ARTIST_PROJECTS: Project[] = [
   },
   {
     id: 'a2',
-    title: 'Pixelated Scroll for the Afterlife',
+    title: 'Virtual Bardo,Biopolitics,Gamified',
     category: 'artist',
     description: 'Interactive sound installation.',
     imageUrl: getImg(2),
@@ -69,7 +69,7 @@ export const ARTIST_PROJECTS: Project[] = [
 export const DESIGNER_PROJECTS: Project[] = [
   {
     id: 'd1',
-    title: 'Mind Made Manifest',
+    title: 'Portrait of a thought growing',
     category: 'designer',
     description: 'Fintech mobile application interface.',
     imageUrl: getImg(5),
@@ -101,7 +101,7 @@ export const DESIGNER_PROJECTS: Project[] = [
   },
   {
     id: 'd3',
-    title: 'Glitch in the Shell',
+    title: 'Other work,Beyond boundaries',
     category: 'designer',
     description: 'Sustainability tracking platform.',
     imageUrl: getImg(7),
@@ -116,7 +116,7 @@ export const DESIGNER_PROJECTS: Project[] = [
   },
   {
     id: 'd4',
-    title: 'Glitch in the Shell',
+    title: 'Butterfly effect of red tides',
     category: 'designer',
     description: 'Medical patient portal.',
     imageUrl: getImg(8),

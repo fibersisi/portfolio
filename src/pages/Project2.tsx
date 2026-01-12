@@ -83,7 +83,7 @@ const Project2 = () => {
                     >
                         <h1 className="font-['Barlow',sans-serif] text-5xl font-bold mb-6">
                             <span className="text-[#ad2309]">PROJECT 02</span>
-                            <span className="text-white">{`  Pixelated Scroll for the Afterlife`}</span>
+                            <span className="text-white">{`  Virtual Bardo,Biopolitics,Gamified`}</span>
                         </h1>
 
                         <h2 className="font-['Alumni_Sans',sans-serif] text-3xl text-[#757575] tracking-[6px] leading-snug mb-8">
