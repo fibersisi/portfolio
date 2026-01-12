@@ -14,6 +14,7 @@ const imgPrj2Page3 = 'assets/images/project2/prj-2-p3.png';
 const imgPrj2Page4 = 'assets/images/project2/prj-2-p4.png';
 const imgPrj2Page5 = 'assets/images/project2/prj-2-p5.png';
 const imgPrj2Page6 = 'assets/images/project2/prj-2-p6.png';
+const imgPrj2Page7 = 'assets/images/project2/prj-2-p7.png';
 
 // Spline 场景链接 - 4个场景将按顺序播放
 const splineScenes = [
@@ -177,6 +178,15 @@ const Project2 = () => {
                             <img
                                 src={imgPrj2Page6}
                                 alt="Project 2 - Page 6"
+                                className="w-full h-auto object-cover"
+                            />
+                        </div>
+
+                        {/* 图片 7 */}
+                        <div className="w-full rounded-lg overflow-hidden border border-white/10 bg-white/5 mt-[160px]">
+                            <img
+                                src={imgPrj2Page7}
+                                alt="Project 2 - Page 7"
                                 className="w-full h-auto object-cover"
                             />
                         </div>

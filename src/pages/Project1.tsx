@@ -9,6 +9,7 @@ const imgPrj1Page2 = 'assets/images/project1/prj-1-p2.png';
 const imgPrj1Page3 = 'assets/images/project1/prj-1-p3.png';
 const imgPrj1Page4 = 'assets/images/project1/prj-1-p4.png';
 const imgPrj1Page5 = 'assets/images/project1/prj-1-p5.png';
+const imgPrj1Page6 = 'assets/images/project1/prj-1-p6.png';
 
 const Project1 = () => {
     return (
@@ -137,6 +138,15 @@ const Project1 = () => {
                             <img
                                 src={imgPrj1Page5}
                                 alt="Project 1 - Page 5"
+                                className="w-full h-auto object-cover"
+                            />
+                        </div>
+
+                        {/* 图片 6 */}
+                        <div className="w-full rounded-lg overflow-hidden border border-white/10 bg-white/5">
+                            <img
+                                src={imgPrj1Page6}
+                                alt="Project 1 - Page 6"
                                 className="w-full h-auto object-cover"
                             />
                         </div>

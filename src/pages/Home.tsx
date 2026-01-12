@@ -48,10 +48,14 @@ const Home = () => {
             navigate('/project3');
         } else if (id === 'a4') {
             navigate('/project4');
-        } else if (id === 'd1' || id === 'd3' || id === 'd4') {
+        } else if (id === 'd1') {
             navigate('/project5');
         } else if (id === 'd2') {
             navigate('/project6');
+        } else if (id === 'd3') {
+            navigate('/project7');
+        } else if (id === 'd4') {
+            navigate('/project8');
         } else {
             navigate(`/project/${id}`);
         }
@@ -61,7 +65,7 @@ const Home = () => {
         <div className="relative w-full h-screen overflow-hidden bg-black font-sans">
             {/* 星空粒子背景 */}
             <TechBackground />
-            
+
             {/* P5.js 交互反馈层 */}
             <P5InteractionLayer />
 

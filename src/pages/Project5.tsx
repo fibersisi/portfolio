@@ -4,10 +4,14 @@ import { ArrowLeft } from 'lucide-react';
 import { TechBackground } from '../components/canvas/TechBackground';
 
 // Figma 设计的图片资源
-const imgPrj5Main = 'assets/images/project5/prj-5-main.png';
-// const imgP5Sound1 = 'assets/images/project5/prj-5-sound1.png';
-// const imgP5Sound2 = 'assets/images/project5/prj-5-sound2.png';
-// const imgP5Sound3 = 'assets/images/project5/prj-5-sound3.png';
+const imgPrj5Page1 = 'assets/images/project5/prj-5-p1.png';
+const imgPrj5Page2 = 'assets/images/project5/prj-5-p2.png';
+const imgPrj5Page3 = 'assets/images/project5/prj-5-p3.png';
+const imgPrj5Page4 = 'assets/images/project5/prj-5-p4.png';
+const imgPrj5Page5 = 'assets/images/project5/prj-5-p5.png';
+const imgPrj5Page6 = 'assets/images/project5/prj-5-p6.png';
+
+
 
 const Project5 = () => {
     return (
@@ -39,14 +43,65 @@ const Project5 = () => {
                     <motion.div
                         initial={{ y: 20, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
-                        transition={{ delay: 0.4 }}
-                        className="w-full rounded-lg overflow-hidden border border-white/10 bg-white/5"
+                        transition={{ delay: 0.2 }}
+                        className="space-y-8"
                     >
-                        <img
-                            src={imgPrj5Main}
-                            alt="Project 5 - Main Content"
-                            className="w-full h-auto object-cover"
-                        />
+
+                        {/* 图片 1 */}
+                        <div className="w-full rounded-lg overflow-hidden border border-white/10 bg-white/5">
+                            <img
+                                src={imgPrj5Page1}
+                                alt="Project 5 - Page 1"
+                                className="w-full h-auto object-cover"
+                            />
+                        </div>
+
+                        {/* 图片 2 */}
+                        <div className="w-full rounded-lg overflow-hidden border border-white/10 bg-white/5">
+                            <img
+                                src={imgPrj5Page2}
+                                alt="Project 5 - Page 2"
+                                className="w-full h-auto object-cover"
+                            />
+                        </div>
+
+                        {/* 图片 3 */}
+                        <div className="w-full rounded-lg overflow-hidden border border-white/10 bg-white/5">
+                            <img
+                                src={imgPrj5Page3}
+                                alt="Project 5 - Page 3"
+                                className="w-full h-auto object-cover"
+                            />
+                        </div>
+
+                        {/* 图片 4 */}
+                        <div className="w-full rounded-lg overflow-hidden border border-white/10 bg-white/5">
+                            <img
+                                src={imgPrj5Page4}
+                                alt="Project 5 - Page 4"
+                                className="w-full h-auto object-cover"
+                            />
+                        </div>
+
+                        {/* 图片 5 */}
+                        <div className="w-full rounded-lg overflow-hidden border border-white/10 bg-white/5">
+                            <img
+                                src={imgPrj5Page5}
+                                alt="Project 5 - Page 5"
+                                className="w-full h-auto object-cover"
+                            />
+                        </div>
+
+                        {/* 图片 6 */}
+                        <div className="w-full rounded-lg overflow-hidden border border-white/10 bg-white/5">
+                            <img
+                                src={imgPrj5Page6}
+                                alt="Project 5 - Page 6"
+                                className="w-full h-auto object-cover"
+                            />
+                        </div>
+
+
                     </motion.div>
 
 

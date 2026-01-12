@@ -12,6 +12,8 @@ const Project3 = React.lazy(() => import('./pages/Project3'));
 const Project4 = React.lazy(() => import('./pages/Project4'));
 const Project5 = React.lazy(() => import('./pages/Project5'));
 const Project6 = React.lazy(() => import('./pages/Project6'));
+const Project7 = React.lazy(() => import('./pages/Project7'));
+const Project8 = React.lazy(() => import('./pages/Project8'));
 const About = React.lazy(() => import('./pages/About'));
 
 const AnimatedRoutes = () => {
@@ -28,6 +30,8 @@ const AnimatedRoutes = () => {
                 <Route path="/project4" element={<Project4 />} />
                 <Route path="/project5" element={<Project5 />} />
                 <Route path="/project6" element={<Project6 />} />
+                <Route path="/project7" element={<Project7 />} />
+                <Route path="/project8" element={<Project8 />} />
                 <Route path="/about" element={<About />} />
             </Routes>
         </AnimatePresence>
